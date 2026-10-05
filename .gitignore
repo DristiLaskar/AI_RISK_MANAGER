@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+node_modules/
+uploads/*
+!uploads/.gitkeep
+users.db
+*.db
+data_ready/
+online_retail*
+*.xlsx

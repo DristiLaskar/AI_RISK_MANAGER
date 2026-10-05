@@ -1,0 +1,9 @@
+{
+  "name": "risk-manager-ui",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\" --outfile=dist/app.js"
+  },
+  "dependencies": { "react": "^19.0.0", "react-dom": "^19.0.0" },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}
